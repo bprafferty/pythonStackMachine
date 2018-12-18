@@ -3,6 +3,7 @@ import prog4_2 as p2
 import sys
 
 def main():
+    print("Assignment #4-3, Brian Rafferty, bprafferty03@gmail.com")
     executableContents = []
     stack = p2.StackMachine()
 
