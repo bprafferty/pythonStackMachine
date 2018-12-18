@@ -58,7 +58,7 @@ class StackMachine:
                 return
 
         elif(inputs[0] == "skip"):
-            if(len(self._data) < 2):
+            if(len(self.__Stack) < 2):
                 raise IndexError("Invalid Memory Access")
             else:
                 skipped = self.__Stack.pop()
